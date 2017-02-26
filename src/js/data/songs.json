@@ -49,7 +49,7 @@
         "id": "6",
         "title": "Let It Go",
         "artist": "James Bay",
-        "year": "1991",
+        "year": "2015",
         "web_url": "https://en.wikipedia.org/wiki/Let_It_Go_(James_Bay_song)",
         "img_url": "http://img.sxsw.com/2015/bands/10331.jpg",
         "audio": "audio/James-Bay.mp3",
@@ -65,13 +65,13 @@
         "summary": "'Hello' is a song by English singer Adele. It was released on 23 October 2015 by XL Recordings as the lead single from her third studio album, 25 (2015). Adele co-wrote the song with her producer, Greg Kurstin. 'Hello' is a piano ballad with soul influences, and lyrics that discuss themes of nostalgia and regret."
     }, {
         "id": "8",
-        "title": "Breakeven",
-        "artist": "The Script",
-        "year": "2008",
-        "web_url": "https://en.wikipedia.org/wiki/Breakeven_(song)",
-        "img_url": "http://image.iheart.com/images/rovi/1080/0003/465/MI0003465970.jpg",
-        "audio": "audio/The-Script.mp3",
-        "summary": "'Breakeven' is a song by Irish pop rock band The Script. It was released on 24 November 2008 as the third single from their eponymous debut album (2008). The song peaked at number 10 in Ireland, number 21 in the United Kingdom and number 3 in Australia."
+        "title": "7 Years",
+        "artist": "Lukas Graham",
+        "year": "2015",
+        "web_url": "https://en.wikipedia.org/wiki/7_Years_(Lukas_Graham_song)",
+        "img_url": "http://www.billboard.com/files/styles/article_main_image/public/media/Lukas-Graham-bb10-beat-2016-billboard-650.jpg",
+        "audio": "audio/Lukas-Graham.mp3",
+        "summary": "'7 Years' is a song by Danish soul-pop band Lukas Graham from their second studio album, Lukas Graham. The song was released as a digital download on 18 September 2015 by Copenhagen Records."
     }, {
         "id": "9",
         "title": "The Worst",

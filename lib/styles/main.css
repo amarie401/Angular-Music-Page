@@ -210,6 +210,33 @@ i.fa.fa-music.ng-binding::before {
 i.fa.fa-info-circle::before {
   padding-right: 10px; }
 
+table {
+  margin-top: 20px;
+  background: rgba(21, 1, 8, 0.57);
+  border: 1px dashed #e9e7e7; }
+  table th {
+    font-size: 24px;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif; }
+    table th:hover {
+      color: lightblue; }
+  table td {
+    text-align: center;
+    font-family: monospace; }
+
+tr.td-list {
+  height: 34px;
+  border-bottom: 3px solid lightblue; }
+  tr.td-list:nth-child(even) {
+    background: wheat; }
+  tr.td-list:nth-child(odd) {
+    background-color: white; }
+
+.song-inventory {
+  margin: 0 auto;
+  width: 50%; }
+
 .song-full-container img {
   cursor: pointer;
   border: 0;

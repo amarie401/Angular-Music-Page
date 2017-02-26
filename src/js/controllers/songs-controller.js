@@ -1,6 +1,8 @@
 (function() {
     angular.module('MusikApp').controller('SongsController', function($state, allData, $q) {
         this.allSongsArray = [];
+        this.reverseSort = false; // default
+        this.orderByField = 'year';
         // console.log('in');
 
         $q.when(allData.get('./src/js/data/songs.json')).then((response) => {
