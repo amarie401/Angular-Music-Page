@@ -81,7 +81,8 @@ nav {
   left: 46px;
   font-family: monospace;
   position: relative;
-  top: 103px; }
+  top: 103px;
+  font-size: 19px; }
 
 .artist-background {
   position: absolute;
