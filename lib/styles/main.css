@@ -154,14 +154,14 @@ nav {
   margin: 0 auto -15px auto;
   background: #fff;
   border-radius: 100%;
-  border: 1px solid #FF7052;
-  color: #FF7052;
+  border: 1px solid wheat;
+  color: lightblue;
   font-size: 24px;
   cursor: pointer;
   box-shadow: 0px 0px 0px 7px #fff;
   transition: 0.2s ease-out; }
   .submit:hover, .submit:focus {
-    background: #FF7052;
+    background: #9e9e9e;
     color: #fff;
     outline: 0; }
 
@@ -308,7 +308,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  padding-bottom: 20px; }
+  padding-bottom: 65px; }
 
 .fa {
   padding-right: 20px; }
