@@ -1,0 +1,37 @@
+.song-full-container {
+    img {
+        cursor: pointer;
+        border: 0;
+        height: auto;
+        max-width: 50%;
+        padding-bottom: 20px;
+    }
+}
+
+.song-preview {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+
+    img {
+        max-height: 200px;
+    }
+
+    h2 {
+        font: 2rem/2 'Sansita', sans-serif;
+    }
+}
+
+.preview-details-container {
+    padding: 0 1rem;
+    border-right: 1px solid $lightBlue;
+    p {
+        margin: 0.75rem 0;
+        font-family: monospace;
+        font-size: 18px;
+
+        a {
+            color: $lightBlue;
+        }
+    }
+}

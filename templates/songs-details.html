@@ -1,0 +1,15 @@
+<section class="song-full-container">
+    <div class="login-welcome">
+        <h1>{{detailsCtrl.selectedSong.artist}}</h1>
+    <div>
+    <img src="{{detailsCtrl.selectedSong.img_url}}" alt="{{detailsCtrl.selectedSong.artist}}">
+    <div class="song-preview">
+        <div class="preview-details-container">
+            <h2>{{detailsCtrl.selectedSong.title}} : {{detailsCtrl.selectedSong.year}}</h2>
+            <p>{{detailsCtrl.selectedSong.summary}}</p>
+            <p>Read more on: <a href="{{detailsCtrl.selectedSong.web_url}}" target="_blank">Wikipedia</a></p>
+            <audio controls data-ng-src="{{detailsCtrl.selectedSong.audio}}" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+</section>

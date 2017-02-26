@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang='en' ng-app="MusikApp">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="src/styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Musik App</title>
+    <link rel="stylesheet" href="lib/styles/main.css">
+</head>
+
+<body ng-controller="LoginController as login">
+    <main>
+        <section class="nav-bg-container">
+            <div class="nav-musik-container">
+                <div class="featured-container">
+                    <div class="featured-musik">
+                        <img class="artist-background" src="http://orig05.deviantart.net/8cd0/f/2008/165/6/5/sunset_music_by_hongryu.jpg">
+                        <img class="music-note">
+                        <img class="">
+                        <div class="featured-name">
+                            <h1>Musik</h1>
+                    </div>
+                </div>
+                <h2 class="tag-line">Where words fail, musik speaks.</h2>
+            </div>
+        </section>
+
+        <section class="nav">
+            <div class="arrow-right">
+            </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a ui-sref="MusikParent.home"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                        </li>
+                        <li>
+                            <a ui-sref="MusikParent.songs"><i class="fa fa-headphones" aria-hidden="true"></i>Songs</a>
+                        </li>
+                        <li>
+                            <a ui-sref="MusikParent.friends"><i class="fa fa-users" aria-hidden="true"></i>Friends</a>
+                        </li>
+                    </ul>
+                </nav>
+        </section>
+
+        <div class="container">
+          <ui-view></ui-view>
+        </div>
+
+    </main>
+
+    <script src="lib/js/vendor/vendor.min.js"></script>
+    <script src='lib/js/app.js'></script>
+</body>
+</html>

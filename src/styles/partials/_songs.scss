@@ -1,0 +1,57 @@
+.song-preview {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-songs {
+    max-height: 100px;
+    position: relative;
+    left: 105px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.top-songs img {
+    width: 44%;
+    float: left;
+}
+
+.song-info {
+    float: left;
+    position: relative;
+    left: 105px;
+    border-bottom: 1px solid $robbinBlue;
+
+    h2 {
+        padding-bottom: 12px;
+        font-size: 17px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: 100;
+
+        &:nth-child(1) {
+            cursor: pointer;
+        }
+    }
+}
+
+i.fa.fa-music.ng-binding::before {
+    padding-right: 10px;
+}
+
+i.fa.fa-info-circle::before {
+    padding-right: 10px;
+}

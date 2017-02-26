@@ -1,0 +1,28 @@
+{
+    "friends": [{
+        "id": "1",
+        "name": "Emily",
+        "img_url": "https://randomuser.me/api/portraits/women/19.jpg",
+        "song_likes": "12"
+    }, {
+        "id": "2",
+        "name": "Matthew",
+        "img_url": "https://randomuser.me/api/portraits/men/68.jpg",
+        "song_likes": "25"
+    }, {
+        "id": "3",
+        "name": "Emily",
+        "img_url": "https://randomuser.me/api/portraits/women/54.jpg",
+        "song_likes": "43"
+    }, {
+        "id": "4",
+        "name": "Laura",
+        "img_url": "https://randomuser.me/api/portraits/women/65.jpg",
+        "song_likes": "57"
+    }, {
+        "id": "4",
+        "name": "Jake",
+        "img_url": "https://randomuser.me/api/portraits/men/51.jpg",
+        "song_likes": "75"
+    }]
+}

@@ -1,0 +1,60 @@
+nav {
+    max-width: 223px;
+    margin: 0 auto;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding-bottom: 50px;
+        text-align: center;
+
+        a:hover {
+            color: $wheat;
+        }
+    }
+}
+
+.nav-musik-container {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    background: $secondaryRGBA;
+    margin-bottom: 63px;
+}
+
+.featured name {
+    position: relative;
+    top: 93px;
+}
+
+.featured-name h1 {
+    font-family: 'Sansita', sans-serif;
+    color: $white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    left: 31px;
+    padding-bottom: 2px;
+}
+
+.tag-line {
+    color: $wheat;
+    text-align: center;
+    position: relative;
+    left: 46px;
+    font-family: monospace;
+    position: relative;
+    top: 103px;
+}
+
+.artist-background {
+    position: absolute;
+    top: -55%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}

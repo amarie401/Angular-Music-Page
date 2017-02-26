@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css?family=Sansita");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  height: 100vh;
+  line-height: 1;
+  width: 100vw; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+nav {
+  max-width: 223px;
+  margin: 0 auto; }
+  nav ul {
+    display: flex; }
+  nav li {
+    padding-bottom: 50px;
+    text-align: center; }
+    nav li a:hover {
+      color: wheat; }
+
+.nav-musik-container {
+  position: relative;
+  height: 270px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.21);
+  margin-bottom: 63px; }
+
+.featured name {
+  position: relative;
+  top: 93px; }
+
+.featured-name h1 {
+  font-family: 'Sansita', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  left: 31px;
+  padding-bottom: 2px; }
+
+.tag-line {
+  color: wheat;
+  text-align: center;
+  position: relative;
+  left: 46px;
+  font-family: monospace;
+  position: relative;
+  top: 103px; }
+
+.artist-background {
+  position: absolute;
+  top: -55%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
+.login-container {
+  display: flex; }
+
+.login {
+  width: 540px;
+  margin: 100px auto 0 auto;
+  background: rgba(21, 1, 8, 0.57);
+  border-radius: 4px; }
+
+.legend {
+  position: relative;
+  width: 100%;
+  display: block;
+  background: wheat;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px; }
+  .legend:after {
+    content: "";
+    background-image: url(http://simpleicon.com/wp-content/uploads/multy-user.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 152px -16px;
+    opacity: 0.06;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute; }
+
+.input {
+  position: relative;
+  width: 90%;
+  margin: 15px auto; }
+  .input span {
+    position: absolute;
+    display: block;
+    color: #d4d4d4;
+    left: 10px;
+    top: 8px;
+    font-size: 20px; }
+  .input input {
+    width: 100%;
+    padding: 10px 5px 10px 45px;
+    display: block;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: #a1a1a1; }
+    .input input:focus {
+      padding: 10px 5px 10px 35px;
+      outline: 0;
+      border-color: #FF7052; }
+
+.submit {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto -15px auto;
+  background: #fff;
+  border-radius: 100%;
+  border: 1px solid #FF7052;
+  color: #FF7052;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 7px #fff;
+  transition: 0.2s ease-out; }
+  .submit:hover, .submit:focus {
+    background: #FF7052;
+    color: #fff;
+    outline: 0; }
+
+.song-preview {
+  width: 33%;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center; }
+
+.top-songs {
+  max-height: 100px;
+  position: relative;
+  left: 105px;
+  overflow: hidden;
+  padding-right: 10px; }
+
+.top-songs img {
+  width: 44%;
+  float: left; }
+
+.song-info {
+  float: left;
+  position: relative;
+  left: 105px;
+  border-bottom: 1px solid #00BCD4; }
+  .song-info h2 {
+    padding-bottom: 12px;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .song-info p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100; }
+    .song-info p:nth-child(1) {
+      cursor: pointer; }
+
+i.fa.fa-music.ng-binding::before {
+  padding-right: 10px; }
+
+i.fa.fa-info-circle::before {
+  padding-right: 10px; }
+
+.song-full-container img {
+  cursor: pointer;
+  border: 0;
+  height: auto;
+  max-width: 50%;
+  padding-bottom: 20px; }
+
+.song-preview {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem; }
+  .song-preview img {
+    max-height: 200px; }
+  .song-preview h2 {
+    font: 2rem/2 'Sansita', sans-serif; }
+
+.preview-details-container {
+  padding: 0 1rem;
+  border-right: 1px solid lightblue; }
+  .preview-details-container p {
+    margin: 0.75rem 0;
+    font-family: monospace;
+    font-size: 18px; }
+    .preview-details-container p a {
+      color: lightblue; }
+
+.friends-preview {
+  width: 33%;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 20px; }
+
+.top-friends {
+  max-height: 100px;
+  position: relative;
+  overflow: hidden;
+  padding-right: 10px; }
+  .top-friends img {
+    width: 40%;
+    float: left;
+    padding-bottom: 10px; }
+
+.friends-info {
+  float: left;
+  padding: 5px 0px;
+  border-bottom: 1px solid #00BCD4; }
+  .friends-info h2 {
+    padding-bottom: 12px;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden; }
+  .friends-info p {
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100; }
+
+.cat-img {
+  display: flex;
+  justify-content: center; }
+  .cat-img img {
+    height: 230px; }
+
+body {
+  margin: 0 auto; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.fa {
+  padding-right: 20px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:active {
+    color: black; }
+  a:hover {
+    color: wheat; }
+
+header h1 {
+  text-align: center; }
+
+.login-welcome h1 {
+  padding-bottom: 70px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px; }
+
+.is-hidden {
+  display: none; }
+
+.is-flex {
+  display: flex;
+  justify-content: center; }

@@ -1,0 +1,20 @@
+<section class="songs-section">
+    <div class="login-welcome">
+        <h1>Welcome, {{login.getInfo()[0].userName}}!!  You currently have {{songsCtrl.allSongsArray.length}} songs in your playlist!</h1>
+
+        <div ng-repeat="song in songsCtrl.allSongsArray" class="song-preview">
+            <div class="top-songs-container">
+                <div class="songs-wrapper">
+                    <div class="top-songs">
+                        <img src="{{song.img_url}}" alt="{{song.artist}}">
+                    </div>
+                    <div class="song-info">
+                        <h2>{{song.artist}}</h2>
+                        <p><i class="fa fa-music">{{song.title}}</i></p>
+                        <p><i class="fa fa-info-circle"><a ui-sref="MusikParent.details({id: song.id})"> More details . . .</a></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

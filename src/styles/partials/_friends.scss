@@ -1,0 +1,49 @@
+.friends-preview {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.top-friends {
+    max-height: 100px;
+    position: relative;
+    overflow: hidden;
+    padding-right: 10px;
+
+    img {
+        width:40%;
+        float: left;
+        padding-bottom: 10px;
+    }
+}
+
+.friends-info {
+    float: left;
+    padding: 5px 0px;
+    border-bottom: 1px solid $robbinBlue;
+
+    h2 {
+        padding-bottom: 12px;
+        font-size: 17px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+.cat-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 230px;
+    }
+}

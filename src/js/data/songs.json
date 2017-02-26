@@ -1,0 +1,85 @@
+{
+    "songs": [{
+        "id": "1",
+        "title": "Shape Of You",
+        "artist": "Ed Sheeran",
+        "year": "2017",
+        "web_url": "https://en.wikipedia.org/wiki/Shape_of_You",
+        "img_url": "http://static.omgvoice.com/images/2016/06/09162029/Ed-Sheeran.jpg",
+        "audio": "audio/Ed-Sheeran.mp3",
+        "summary": "'Shape of You' is a song by English singer-songwriter Ed Sheeran. It was released as a digital download on 6 January 2017 as one of the lead singles from his upcoming third studio album"
+    }, {
+        "id": "2",
+        "title": "Closer",
+        "artist": "The Chainsmokers",
+        "year": "2016",
+        "web_url": "https://en.wikipedia.org/wiki/Closer_(The_Chainsmokers_song)",
+        "img_url": "http://edmchicago.com/wp-content/uploads/2016/02/the_chainsmokers_0-1366x800.jpg",
+        "audio": "audio/The-Chainsmokers.mp3",
+        "summary": "'Closer' is a song by American DJ duo The Chainsmokers, featuring American singer Halsey. Andrew Taggart (one half of The Chainsmokers) also provides his vocals in the song. It was released on July 29, 2016, through Disruptor Records and Columbia Records."
+
+    }, {
+        "id": "3",
+        "title": "I Got You",
+        "artist": "Bebe Rexha",
+        "year": "2016",
+        "web_url": "https://en.wikipedia.org/wiki/I_Got_You_(Bebe_Rexha_song)",
+        "img_url": "http://media.gq.com/photos/5703dd4f1cbe6694622b04b3/master/w_800/Bebe-Rexha-WCW-LA-01.jpg",
+        "audio": "audio/Bebe-Rexha.mp3",
+        "summary": "'I Got You' is a song recorded by American singer Bebe Rexha. It was released on October 28, 2016 as the lead single from her EP All Your Fault: Pt. 1. The track was produced by production team Captain Cuts."
+    }, {
+        "id": "4",
+        "title": "Treat You Better",
+        "artist": "Shawn Mendes",
+        "year": "2016",
+        "web_url": "https://en.wikipedia.org/wiki/Treat_You_Better",
+        "img_url": "https://s-media-cache-ak0.pinimg.com/originals/18/ee/16/18ee16fb95a06a1ca3305afca408558b.jpg",
+        "audio": "audio/Shawn-Mendes.mp3",
+        "summary": "'Treat You Better' is a song recorded by Canadian singer and songwriter Shawn Mendes. It was co-written by Mendes with Teddy Geiger, and Scott Harris. It was released on June 3, 2016 through Island Records as the lead single from his second studio album, Illuminate (2016)."
+    }, {
+        "id": "5",
+        "title": "Close",
+        "artist": "Nick Jonas",
+        "year": "2016",
+        "web_url": "https://en.wikipedia.org/wiki/Close_(Nick_Jonas_song)",
+        "img_url": "http://akns-images.eonline.com/eol_images/Entire_Site/20141010/rs_634x792-141110192338-634.Nick-Jonas-Yahoo-Style.1.ms.111014.jpg",
+        "audio": "audio/Nick-Jonas.mp3",
+        "summary": "'Close' is a song recorded by American singer Nick Jonas from his third studio album, Last Year Was Complicated. The track features guest vocals from Swedish singer Tove Lo. It was released on March 25, 2016, by Island, Safehouse and Republic Records as the album's lead single."
+    }, {
+        "id": "6",
+        "title": "Let It Go",
+        "artist": "James Bay",
+        "year": "1991",
+        "web_url": "https://en.wikipedia.org/wiki/Let_It_Go_(James_Bay_song)",
+        "img_url": "http://img.sxsw.com/2015/bands/10331.jpg",
+        "audio": "audio/James-Bay.mp3",
+        "summary": "'Let It Go' is a song by English singer-songwriter James Bay. It was released in Europe on 15 September 2014 through Republic Records as the first single from Bay's second extended play of the same name. It was included on Bay's debut studio album Chaos and the Calm (2015)."
+    }, {
+        "id": "7",
+        "title": "Hello",
+        "artist": "Adele",
+        "year": "2015",
+        "web_url": "https://en.wikipedia.org/wiki/Hello_(Adele_song)",
+        "img_url": "http://s.mxmcdn.net/images-storage/albums/1/0/7/6/5/0/32056701_800_800.jpg",
+        "audio": "audio/Adele.mp3",
+        "summary": "'Hello' is a song by English singer Adele. It was released on 23 October 2015 by XL Recordings as the lead single from her third studio album, 25 (2015). Adele co-wrote the song with her producer, Greg Kurstin. 'Hello' is a piano ballad with soul influences, and lyrics that discuss themes of nostalgia and regret."
+    }, {
+        "id": "8",
+        "title": "Breakeven",
+        "artist": "The Script",
+        "year": "2008",
+        "web_url": "https://en.wikipedia.org/wiki/Breakeven_(song)",
+        "img_url": "http://image.iheart.com/images/rovi/1080/0003/465/MI0003465970.jpg",
+        "audio": "audio/The-Script.mp3",
+        "summary": "'Breakeven' is a song by Irish pop rock band The Script. It was released on 24 November 2008 as the third single from their eponymous debut album (2008). The song peaked at number 10 in Ireland, number 21 in the United Kingdom and number 3 in Australia."
+    }, {
+        "id": "9",
+        "title": "The Worst",
+        "artist": "Jhene Aiko",
+        "year": "2014",
+        "web_url": "https://en.wikipedia.org/wiki/The_Worst_(Jhen%C3%A9_Aiko_song)",
+        "img_url": "https://s-media-cache-ak0.pinimg.com/originals/ac/68/f2/ac68f21d3b992764db45251de28ab530.jpg",
+        "audio": "audio/Jhene-Aiko.mp3",
+        "summary": "'The Worst' is a song by American recording artist Jhene Aiko released on her debut EP Sail Out (2013). The song was released as its second official single and was serviced to Rhythmic contemporary radio on January 14, 2014, through ARTium and Def Jam Recordings."
+    }]
+}
