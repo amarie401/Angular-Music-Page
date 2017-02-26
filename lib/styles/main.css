@@ -238,6 +238,10 @@ tr.td-list {
   margin: 0 auto;
   width: 50%; }
 
+@media only screen and (min-width: 1000px) and (max-width: 1160px) {
+  .top-songs img {
+    width: 30%; } }
+
 .song-full-container img {
   cursor: pointer;
   border: 0;
