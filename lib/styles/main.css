@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Sansita");
-@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Griffy");
+@import url("https://fonts.googleapis.com/css?family=Boogaloo");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,61 +45,41 @@ table {
   box-sizing: border-box; }
 
 nav {
-  max-width: 223px;
   margin: 0 auto; }
   nav ul {
     display: flex; }
   nav li {
+    width: 100%;
+    margin: 0 auto;
     padding-bottom: 50px;
-    text-align: center; }
+    text-align: center;
+    padding-right: 60px; }
     nav li a:hover {
       color: wheat; }
 
-.nav-musik-container {
-  position: relative;
-  height: 270px;
-  overflow: hidden;
-  background: rgba(0, 0, 0, 0.21);
-  margin-bottom: 63px; }
-
-.featured name {
-  position: relative;
-  top: 93px; }
-
-.featured-name h1 {
-  font-family: 'Sansita', sans-serif;
-  color: white;
+#hero {
   text-align: center;
-  font-size: 50px;
-  position: relative;
-  left: 31px;
-  padding-bottom: 2px; }
+  min-height: 250px;
+  background: url("http://www.juniorconsulting.be/img/bg_about.jpg");
+  background-size: cover;
+  min-width: 100%;
+  margin-bottom: 10px;
+  position: relative; }
+  #hero p {
+    margin-top: 157px;
+    font-family: monospace;
+    font-size: 19px; }
 
-.tag-line {
-  color: wheat;
-  text-align: center;
-  position: relative;
-  left: 46px;
-  font-family: monospace;
-  position: relative;
-  top: 103px;
-  font-size: 19px; }
-
-.artist-background {
-  position: absolute;
-  top: -55%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
+#hero,
+section {
+  padding: 10px; }
 
 .login-container {
   display: flex; }
 
 .login {
   width: 540px;
-  margin: 100px auto 0 auto;
+  margin-top: 50px;
   background: rgba(21, 1, 8, 0.57);
   border-radius: 4px; }
 
@@ -145,7 +126,7 @@ nav {
     .input input:focus {
       padding: 10px 5px 10px 35px;
       outline: 0;
-      border-color: #FF7052; }
+      border-color: #3f1005; }
 
 .submit {
   width: 45px;
@@ -165,45 +146,31 @@ nav {
     color: #fff;
     outline: 0; }
 
-.song-preview {
-  width: 33%;
-  float: left;
-  overflow: hidden;
-  padding-bottom: 20px;
+.songs-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; }
 
-.top-songs {
-  max-height: 100px;
-  position: relative;
-  left: 105px;
-  overflow: hidden;
-  padding-right: 10px; }
-
-.top-songs img {
-  width: 44%;
-  float: left; }
-
-.song-info {
-  float: left;
-  position: relative;
-  left: 105px;
-  border-bottom: 1px solid #00BCD4; }
-  .song-info h2 {
-    padding-bottom: 12px;
-    font-size: 17px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; }
-  .song-info p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-bottom: 10px;
-    font-size: 14px;
-    font-weight: 100; }
-    .song-info p:nth-child(1) {
-      cursor: pointer; }
+.song-preview {
+  border-bottom: 2px solid lightblue;
+  flex: none;
+  margin: 10px 10px 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 300px; }
+  .song-preview img {
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    max-height: 150px;
+    margin: 0 auto;
+    width: 250px; }
+  .song-preview h2 {
+    font: 2rem/2 'Griffy', sans-serif;
+    padding: 20px; }
+  .song-preview p {
+    margin: 0 0 5px 80px;
+    text-align: left; }
 
 i.fa.fa-music.ng-binding::before {
   padding-right: 10px; }
@@ -219,7 +186,7 @@ table {
     font-size: 25px;
     background-color: white;
     cursor: pointer;
-    font-family: 'Oswald', sans-serif; }
+    font-family: 'Griffy', sans-serif; }
     table th:hover {
       color: lightblue; }
   table td {
@@ -236,31 +203,33 @@ tr.td-list {
 
 .song-inventory {
   margin: 0 auto;
-  width: 50%; }
+  width: 100%; }
 
-@media only screen and (min-width: 1000px) and (max-width: 1160px) {
-  .top-songs img {
-    width: 30%; } }
-
-.song-full-container img {
-  cursor: pointer;
-  border: 0;
-  height: auto;
-  max-width: 50%;
-  padding-bottom: 20px; }
-
-.song-preview {
+.details-container {
   display: flex;
-  justify-content: space-between;
-  padding: 0.75rem 1rem; }
-  .song-preview img {
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap; }
+
+.song-detail {
+  max-width: 550px; }
+  .song-detail img {
     max-height: 200px; }
-  .song-preview h2 {
+  .song-detail h2 {
     font: 2rem/2 'Sansita', sans-serif; }
+
+.song-image a {
+  cursor: pointer;
+  margin-left: 20px; }
+  .song-image a img {
+    max-width: 400px;
+    width: auto;
+    height: auto; }
 
 .preview-details-container {
   padding: 0 1rem;
-  border-right: 1px solid lightblue; }
+  border-right: 1px solid lightblue;
+  max-width: 400px; }
   .preview-details-container p {
     margin: 0.75rem 0;
     font-family: monospace;
@@ -268,43 +237,24 @@ tr.td-list {
     .preview-details-container p a {
       color: lightblue; }
 
-.friends-preview {
-  width: 33%;
-  float: left;
-  overflow: hidden;
-  padding-bottom: 20px; }
-
-.top-friends {
-  max-height: 100px;
-  position: relative;
-  overflow: hidden;
-  padding-right: 10px; }
-  .top-friends img {
-    width: 40%;
-    float: left;
-    padding-bottom: 10px; }
-
-.friends-info {
-  float: left;
-  padding: 5px 0px;
-  border-bottom: 1px solid #00BCD4; }
-  .friends-info h2 {
-    padding-bottom: 12px;
-    font-size: 17px;
-    white-space: nowrap;
-    overflow: hidden; }
-  .friends-info p {
-    white-space: nowrap;
-    overflow: hidden;
-    padding-bottom: 10px;
-    font-size: 14px;
-    font-weight: 100; }
-
-.cat-img {
-  display: flex;
-  justify-content: center; }
-  .cat-img img {
-    height: 230px; }
+.friend-preview {
+  border-bottom: 2px solid lightblue;
+  flex: none;
+  margin: 10px 10px 70px;
+  padding-bottom: 15px;
+  text-align: center; }
+  .friend-preview img {
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    max-height: 150px;
+    margin: 0 auto;
+    width: 145px; }
+  .friend-preview h2 {
+    font: 2rem/2 'Griffy', sans-serif;
+    padding-top: 20px; }
+  .friend-preview p {
+    text-align: left; }
 
 body {
   margin: 0 auto; }
@@ -331,8 +281,8 @@ header h1 {
 .login-welcome h1 {
   padding-bottom: 70px;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 35px; }
+  font-family: 'Boogaloo', cursive;
+  font-size: 25px; }
 
 .is-hidden {
   display: none; }

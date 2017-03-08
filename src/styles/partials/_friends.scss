@@ -1,49 +1,23 @@
-.friends-preview {
-    width: 33%;
-    float: left;
-    overflow: hidden;
-    padding-bottom: 20px;
-}
-
-.top-friends {
-    max-height: 100px;
-    position: relative;
-    overflow: hidden;
-    padding-right: 10px;
+.friend-preview {
+    border-bottom: 2px solid lightblue;
+    flex: none;
+    margin: 10px 10px 70px;
+    padding-bottom: 15px;
+    text-align: center;
 
     img {
-        width:40%;
-        float: left;
-        padding-bottom: 10px;
+        display:block;
+        object-fit: cover;
+        object-position: top;
+        max-height: 150px;
+        margin: 0 auto;
+        width: 145px;
     }
-}
-
-.friends-info {
-    float: left;
-    padding: 5px 0px;
-    border-bottom: 1px solid $robbinBlue;
-
     h2 {
-        padding-bottom: 12px;
-        font-size: 17px;
-        white-space: nowrap;
-        overflow: hidden;
+        font: 2rem/2 'Griffy', sans-serif;
+        padding-top: 20px;
     }
-
     p {
-        white-space: nowrap;
-        overflow: hidden;
-        padding-bottom: 10px;
-        font-size: 14px;
-        font-weight: 100;
-    }
-}
-
-.cat-img {
-    display: flex;
-    justify-content: center;
-
-    img {
-        height: 230px;
+    text-align: left;
     }
 }

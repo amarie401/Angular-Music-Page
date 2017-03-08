@@ -1,26 +1,37 @@
 (function() {
     angular.module('MusikApp').controller("LoginController", function($location, $state, localStorageService) {
-        this.userInfo = []; // store userInfo array
-        console.log('in');
-        this.inputInfo = { // inputinfo obj
-            userName: '',
-            passWord: '',
+
+        this.getInfo = function() {
+            return localStorageService.get('userInfo') || [];
         };
 
-        this.submit = function() { // submit function
-            this.userInfo.push(this.inputInfo); // push inputInfo in userInfo array
-            this.setInfo(this.userInfo); // pass userInfo in setInfo function
-            this.userinfo = this.getInfo(); // set userinfo to getInfo function
+        this.getCurrentUser = function() {
+            return this.getInfo();
+        };
+
+        this.logOut = function() {
+            localStorageService.clearAll();
+            $state.go('MusikParent.index');
+        };
+
+        this.userInfo = this.getInfo();
+
+        this.inputInfo = {
+            userName: '',
+            passWord: ''
+        };
+
+        this.submit = function() {
+            this.userInfo.push(this.inputInfo);
+            this.setInfo(this.userInfo);
+            this.userinfo = this.getInfo();
             console.log(this.getInfo()[0].userName);
             $state.go('MusikParent.home');
         };
 
-        this.setInfo = function(userInfo, data) { // set local storage
+        this.setInfo = function(userInfo) {
             localStorageService.set('userInfo', this.userInfo);
         };
 
-        this.getInfo = function() { // get local storage
-            return localStorageService.get('userInfo') || [];
-        };
     });
 })();

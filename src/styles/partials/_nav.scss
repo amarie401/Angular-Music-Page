@@ -1,5 +1,4 @@
 nav {
-    max-width: 223px;
     margin: 0 auto;
 
     ul {
@@ -7,8 +6,11 @@ nav {
     }
 
     li {
+        width: 100%;
+        margin: 0 auto;
         padding-bottom: 50px;
         text-align: center;
+        padding-right: 60px;
 
         a:hover {
             color: $wheat;
@@ -16,46 +18,23 @@ nav {
     }
 }
 
-.nav-musik-container {
-    position: relative;
-    height: 270px;
-    overflow: hidden;
-    background: $secondaryRGBA;
-    margin-bottom: 63px;
-}
-
-.featured name {
-    position: relative;
-    top: 93px;
-}
-
-.featured-name h1 {
-    font-family: 'Sansita', sans-serif;
-    color: $white;
+#hero {
     text-align: center;
-    font-size: 50px;
+    min-height: 250px;
+    background: url('http://www.juniorconsulting.be/img/bg_about.jpg');
+    background-size: cover;
+    min-width: 100%;
+    margin-bottom: 10px;
     position: relative;
-    left: 31px;
-    padding-bottom: 2px;
+
+    p {
+        margin-top: 157px;
+        font-family: monospace;
+        font-size: 19px;
+    }
 }
 
-.tag-line {
-    color: $wheat;
-    text-align: center;
-    position: relative;
-    left: 46px;
-    font-family: monospace;
-    position: relative;
-    top: 103px;
-    font-size: 19px;
-}
-
-.artist-background {
-    position: absolute;
-    top: -55%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: -1;
+#hero,
+section {
+    padding: 10px;
 }

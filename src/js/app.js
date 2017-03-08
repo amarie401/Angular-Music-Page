@@ -4,7 +4,7 @@
     angular.module('MusikApp').config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/');
 
-        $stateProvider.state('MusikParent', { // default home url
+        $stateProvider.state('MusikParent', {
             url: '/',
             abstract: true,
             template: '<ui-view></ui-view>',
@@ -15,7 +15,7 @@
         }).state('MusikParent.home', {
             url: 'home',
             templateUrl: './templates/home.html',
-        }).state('MusikParent.songs', { // login template
+        }).state('MusikParent.songs', {
             url: 'songs',
             templateUrl: './templates/songs.html',
             controller: "SongsController as songsCtrl"
@@ -24,7 +24,7 @@
             templateUrl: './templates/friends.html',
             controller: "FriendsController as friendsCtrl"
         }).state('MusikParent.details', {
-            url: 'song-details/:id', //  url accepts a parameter called id that will be dynamic
+            url: 'song-details/:id',
             templateUrl: './templates/songs-details.html',
             controller: 'DetailsController as detailsCtrl'
         });

@@ -1,17 +1,12 @@
-.song-full-container {
-    img {
-        cursor: pointer;
-        border: 0;
-        height: auto;
-        max-width: 50%;
-        padding-bottom: 20px;
-    }
+.details-container {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
-.song-preview {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.75rem 1rem;
+.song-detail{
+    max-width: 550px;
 
     img {
         max-height: 200px;
@@ -22,9 +17,23 @@
     }
 }
 
+.song-image {
+    a {
+        cursor: pointer;
+        margin-left: 20px;
+        img {
+            max-width: 400px;
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
+
 .preview-details-container {
     padding: 0 1rem;
     border-right: 1px solid $lightBlue;
+    max-width: 400px;
     p {
         margin: 0.75rem 0;
         font-family: monospace;

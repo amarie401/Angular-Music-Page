@@ -1,50 +1,34 @@
-.song-preview {
-    width: 33%;
-    float: left;
-    overflow: hidden;
-    padding-bottom: 20px;
+.songs-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.top-songs {
-    max-height: 100px;
-    position: relative;
-    left: 105px;
-    overflow: hidden;
-    padding-right: 10px;
-}
+.song-preview {
+    border-bottom: 2px solid lightblue;
+    flex: none;
+    margin: 10px 10px 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 300px;
 
-.top-songs img {
-    width: 44%;
-    float: left;
-}
-
-.song-info {
-    float: left;
-    position: relative;
-    left: 105px;
-    border-bottom: 1px solid $robbinBlue;
+    img {
+        display: block;
+        object-fit: cover;
+        object-position: top;
+        max-height: 150px;
+        margin: 0 auto;
+        width: 250px;
+    }
 
     h2 {
-        padding-bottom: 12px;
-        font-size: 17px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        font: 2rem/2 'Griffy', sans-serif;
+        padding: 20px;
     }
 
     p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        padding-bottom: 10px;
-        font-size: 14px;
-        font-weight: 100;
-
-        &:nth-child(1) {
-            cursor: pointer;
-        }
+        margin: 0 0 5px 80px;
+        text-align: left;
     }
 }
 
@@ -57,45 +41,40 @@ i.fa.fa-info-circle::before {
 }
 
 table {
-  margin-top: 20px;
-  background: $mainRGBA;
-  border: 1px dashed #e9e7e7;
+    margin-top: 20px;
+    background: $mainRGBA;
+    border: 1px dashed #e9e7e7;
+
     th {
         font-size: 25px;
         background-color: $white;
         cursor: pointer;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Griffy', sans-serif;
 
         &:hover {
             color: lightblue;
         }
     }
+
     td {
         text-align: center;
         font-family: monospace;
-        }
     }
+}
 
-    tr.td-list {
-        &:nth-child(even) {
+tr.td-list {
+    &:nth-child(even) {
         background: $wheat;
-        }
-
-        &:nth-child(odd) {
-        background-color: $white;
-        }
-
-       height: 34px;
-       border-bottom: 3px solid lightblue;
     }
+
+    &:nth-child(odd) {
+        background-color: $white;
+    }
+    height: 34px;
+    border-bottom: 3px solid lightblue;
+}
 
 .song-inventory {
     margin: 0 auto;
-    width: 50%;
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1160px)  {
-    .top-songs img {
-        width: 30%;
-    }
+    width: 100%;
 }
